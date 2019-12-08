@@ -222,11 +222,6 @@ h1, h2, h3, h4, h5 {
 
  /* Tablet media query */
 
- @media screen(max-width:1000){
-   
-
- }
-
 
  /* Mobile Media Query */
 @media (max-width:1000px){
@@ -285,7 +280,6 @@ h1, h2, h3, h4, h5 {
         height:40vh;
         display:flex;
         flex-direction:column;
-        padding-bottom:1em;
         width:100%;
     }
     nav a{
@@ -297,10 +291,10 @@ h1, h2, h3, h4, h5 {
     nav a:last-of-type{
         border-bottom:2px grey solid;
     }
+    .la
     .features-about-block,
     .services-product-vision-block{
         flex-flow:column wrap;
-        color:red;
     }
     .features-about-block > div,
     .services-product-vision-block > div{
